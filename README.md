@@ -7,8 +7,8 @@
 * JAVA JDK 12.0.1
 * IntelliJ IDEA Ultimate
 ## Course Outline
-* Lesson 1: Introduction => Set up Software
-   - Kotlin REPL < Ctrl + Enter > to execute
+* `Lesson 1: Introduction =>` Set up Software
+   - `Kotlin REPL < Ctrl + Enter > to execute`
       ```kotlin
       fun printHello () {
          println ("Hello World")
@@ -16,8 +16,8 @@
 
       printHello() // Hello World
       ```
-* Lesson 2: Kotlin Basics => [Kotlin Koans](https://try.kotlinlang.org/#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt) (REPL) => Operators /  
-   - Operators
+* `Lesson 2: Kotlin Basics =>` [Kotlin Koans](https://try.kotlinlang.org/#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt) (REPL) => Operators /  
+   - `Operators`
       ```kotlin
       // res case: kotlin.Type = ?
 
@@ -89,7 +89,7 @@
       var fishFoodTreats = 5
       return fishFoodTreats?.dec() ?: 0
       ```
-   - Strings
+   - `Strings`
       ```kotlin
       "Hello Fish" // Hello Fish
 
@@ -124,7 +124,7 @@
       }
       // Full tank
       ```
-   - Arrays and Loops
+   - `Arrays and Loops`
       ```kotlin
       val myList = mutableListOf("tuna","salmon",shark)
       myList = mutableListOf("Koi", "goldfish") // error
@@ -158,3 +158,24 @@
          println("Fish at $index is $element")
       } // Fish at 0 is 12Fish at 1 is 5
       ```
+* `Lesson 3: Functions =>` Run -> Edit Configurations -> Program arguments -> Kotlin
+   ```kotlin
+   fun main(args: Array<String>) {
+      println("Hello, world!")
+   }
+   ```
+   ```kotlin
+   fun main(args: Array<String>) {
+      println("Hello ${args[0]}!")
+
+      val isUnit = print("The is an expression")
+      println(isUnit)
+
+      val temperature = 10
+      val isHot = if (temperature > 50) true else false
+      println(isHot)
+
+      val message = "You are ${if (temperature > 50) "tried" else "safe" } fish"
+      println(message)
+   }
+   ```
