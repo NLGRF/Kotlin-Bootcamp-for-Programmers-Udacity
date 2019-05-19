@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f078ed60-5806-4855-9f2c-65c9b06d933b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AMS.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -141,12 +140,12 @@
       <updated>1558185169832</updated>
       <workItem from="1558185181071" duration="791000" />
       <workItem from="1558259932640" duration="6138000" />
-      <workItem from="1558290058917" duration="2141000" />
+      <workItem from="1558290058917" duration="3090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9070000" />
+    <option name="totallyTimeSpent" value="10019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -196,8 +195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AMS.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
         </state>
       </provider>
     </entry>

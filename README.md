@@ -9,6 +9,7 @@
 ## Course Outline
 * `Lesson 1: Introduction =>` Set up Software
    - `Kotlin REPL < Ctrl + Enter > to execute`
+
       ```kotlin
       fun printHello () {
          println ("Hello World")
@@ -18,6 +19,7 @@
       ```
 * `Lesson 2: Kotlin Basics =>` [Kotlin Koans](https://try.kotlinlang.org/#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt) (REPL) => Operators /  
    - `Operators`
+
       ```kotlin
       // res case: kotlin.Type = ?
 
@@ -90,6 +92,7 @@
       return fishFoodTreats?.dec() ?: 0
       ```
    - `Strings`
+
       ```kotlin
       "Hello Fish" // Hello Fish
 
@@ -125,6 +128,7 @@
       // Full tank
       ```
    - `Arrays and Loops`
+
       ```kotlin
       val myList = mutableListOf("tuna","salmon",shark)
       myList = mutableListOf("Koi", "goldfish") // error
@@ -159,23 +163,46 @@
       } // Fish at 0 is 12Fish at 1 is 5
       ```
 * `Lesson 3: Functions =>` Run -> Edit Configurations -> Program arguments -> Kotlin
-   ```kotlin
-   fun main(args: Array<String>) {
-      println("Hello, world!")
-   }
-   ```
-   ```kotlin
-   fun main(args: Array<String>) {
-      println("Hello ${args[0]}!")
+   - `Main Arguments`
 
-      val isUnit = print("The is an expression")
-      println(isUnit)
+      ```kotlin
+      fun main(args: Array<String>) {
+         println("Hello, world!")
+      }
+      ```
+      ```kotlin
+      fun main(args: Array<String>) {
+         println("Hello ${args[0]}!")
 
-      val temperature = 10
-      val isHot = if (temperature > 50) true else false
-      println(isHot)
+         val isUnit = print("The is an expression")
+         println(isUnit)
 
-      val message = "You are ${if (temperature > 50) "tried" else "safe" } fish"
-      println(message)
-   }
-   ```
+         val temperature = 10
+         val isHot = if (temperature > 50) true else false
+         println(isHot)
+
+         val message = "You are ${if (temperature > 50) "tried" else "safe" } fish"
+         println(message)
+      }
+      ```
+   - `Random Day`
+
+      ```kotlin
+      import java.util.*
+
+      fun main(args: Array<String>) {
+         println("Hello ${args[0]}!")
+         feedTheFish()
+      }
+
+      fun feedTheFish() {
+         val day = randomDay()
+         val food = "pellets"
+         println("Today is $day and the fish eat $food")
+      }
+
+      fun randomDay(): String {
+         val week = listOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+         return week[Random().nextInt(7)]
+      }
+      ```
