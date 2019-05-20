@@ -3,15 +3,27 @@ import java.util.*
 fun main(args: Array<String>) {
     println("Hello ${args[0]}!")
     feedTheFish()
+    eagerExample()
+}
 
-    var bubbles = 0
-    while (bubbles < 50) {
-        bubbles++
+fun eagerExample() {
+    val decorations = listOf("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+
+    val eager = decorations.filter { it[0] == 'p' }
+    println(eager)
+
+    // apply filter lazily
+    val filtered = decorations.asSequence().filter { it[0] == 'p' }
+    println(filtered)
+    println(filtered.toList())
+
+    val lazyMap = decorations.asSequence().map {
+        println("map: $it")
+        it
     }
 
-    repeat(2) {
-        println("A fish is swimming")
-    }
+    println(lazyMap)
+    println("first: ${lazyMap.first()}")
 }
 
 fun feedTheFish() {

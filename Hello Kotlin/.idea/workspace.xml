@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AMS.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -53,9 +53,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="97" />
-    <option name="y" value="411" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="108" />
+    <option name="y" value="478" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -139,18 +139,18 @@
       <workItem from="1558185181071" duration="791000" />
       <workItem from="1558259932640" duration="6138000" />
       <workItem from="1558290058917" duration="3972000" />
-      <workItem from="1558366576130" duration="3151000" />
+      <workItem from="1558366576130" duration="4914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14052000" />
+    <option name="totallyTimeSpent" value="15815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="329" width="1400" height="784" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -159,7 +159,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297546" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -194,8 +194,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AMS.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="221">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>
