@@ -399,6 +399,7 @@
 
          println(lazyMap)
          println("first: ${lazyMap.first()}")
+         println("all: ${lazyMap.toList()}")
       }
 
       fun feedTheFish() {
